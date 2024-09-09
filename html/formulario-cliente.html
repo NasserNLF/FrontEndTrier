@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário-Cliente</title>
+  </head>
+  <body>
+    <h3>Cadastro de usuário</h3>
+
+    <form action="" method="post">
+      <div>
+        <label for="nome">Nome</label>
+        <input name="nome" type="text" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="e-mail">E-mail</label>
+        <input name="e-mail" type="text" />
+      </div>
+
+      <br />
+      
+      <div>
+        <label for="idade">Idade</label>
+        <input name="idade" type="number" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="masculino" />
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="sexo" id="feminino" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="estado-civil">Estado Civil</label>
+        <input name="estado-civil" type="text" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="profissao">Profissão</label>
+        <select name="profissao" id="">
+          <option value="1">Programador</option>
+          <option value="2">Analista</option>
+          <option value="3">Designer</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="privacidade">Aceite de políticas de privacidade</label>
+        <input type="checkbox" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="observacao"></label>
+        <textarea name="observacao" id="1" cols="40" rows="4"></textarea>
+      </div>
+
+      <br />
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+
+    </form>  
+
+    <table border="">
+      <tr>
+          <th>Seleção</th>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Idade</th>
+          <th>Sexo</th>
+          <th>Estado-Civil</th>
+          <th>Profissão</th>
+          <th>Observacão</th>
+      </tr>
+      <tr>
+          <td>
+              <input type="checkbox" name="" id="">
+          </td>
+          <td>
+              Nasser
+          </td>
+          <td>
+              teste@gmail.com
+          </td>
+          <td>
+              19
+          </td>
+          <td>
+              Masculino
+          </td>
+          <td>
+              Solteiro
+          </td>
+          <td>
+              Estudante
+          </td>
+          <td>
+              Olá
+          </td>
+
+      </tr>
+  </body>
+</html>

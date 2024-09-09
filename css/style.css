@@ -1,0 +1,30 @@
+.texto {
+    margin: 30px;
+    height: 30px;
+
+    background-color: blue;
+}
+
+.texto-paragrafo {
+    margin: 30px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-paragrafo-link {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.borda {
+    border: 1px solid black;
+    height: 180px;
+    margin: 20px;
+}
+
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

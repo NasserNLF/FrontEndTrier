@@ -1,0 +1,34 @@
+.body{
+    background-color: aliceblue;
+}
+
+
+.titulo{
+    margin: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formulario{
+    margin: 50px;
+}
+
+.formulario-label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+
+.formulario-input{
+    border-radius: 10px;
+}
+
+.tabela{
+    margin: 50px;
+}
+
+th, td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
+    padding: 10px;
+}
+
+

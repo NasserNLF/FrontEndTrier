@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- <body onkeydown="alertaTeclaPressionada()" onkeyup="alertaTeclaSolta()" onkeypress="alertaTeclaPressionada()">  -->
+  <body>
+    <!-- Eventos de Mouse -->
+
+    <div
+      style="height: 100px; width: 100px; border: 1px solid black"
+      onclick="alertaClique()"
+    >
+      click
+    </div>
+    <div
+      style="height: 100px; width: 100px; border: 1px solid black"
+      ondblclick="alertaDoisCliques()"
+    >
+      dblclick
+    </div>
+    <div
+      style="height: 100px; width: 100px; border: 1px solid black"
+      onmouseover="alertaMouseCimaElemento()"
+    >
+      mouseover
+    </div>
+    <div
+      style="height: 100px; width: 100px; border: 1px solid black"
+      onmouseout="alertaMouseFora()"
+    >
+      mouseout
+    </div>
+    <div
+      style="height: 100px; width: 100px; border: 1px solid black"
+      onmousedown="alertaMouseApertado()"
+    >
+      mousedown
+    </div>
+    <div
+      style="height: 100px; width: 100px; border: 1px solid black"
+      onmouseup="alertaMouseSolto()"
+    >
+      mouseup
+    </div>
+
+    <!-- Eventos de Formulário -->
+    <form action="" onsubmit="alertaEnviado(event)">
+      <input type="text" placeholder="submit" />
+    </form>
+
+    <form action="" onchange="alertaMudanca()">
+      <input type="text" placeholder="change" />
+    </form>
+
+    <form action="">
+      <input type="text" placeholder="focus" onfocus="alertaFoco()"/>
+    </form>
+
+    <input type="text"  placeholder="blur" onblur="alertaPerdaFoco()"/>
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>

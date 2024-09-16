@@ -1,0 +1,13 @@
+
+<app-componente-cabecalho tituloDinamico="teste" (pesquisa)="emiteAlerta($event)"></app-componente-cabecalho>
+<app-componente-conteudo></app-componente-conteudo>
+<app-meu-primeiro-componente *ngIf = "aparecerComponente; else elseBlock"/>
+<ng-template #elseBlock>
+  <p>Else</p>
+</ng-template>
+
+<!-- <div *ngFor="let usuario of usuarios; let i = index">
+  <app-meu-primeiro-componente [titulo]="usuario.nome" />
+</div> -->
+
+<!-- <app-meu-primeiro-componente titulo="Hello World" (botaoClicado)="emiteAlerta($event)"></app-meu-primeiro-componente> -->

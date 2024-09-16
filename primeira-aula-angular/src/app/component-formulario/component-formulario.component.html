@@ -1,0 +1,16 @@
+<div class="formulario">
+  <label for="nome">Nome: </label>
+  <input type="text" name="nome" [(ngModel)] = 'nome'>
+  {{nome}}
+  <label for="e-mail">E-mail:</label>
+  <input type="text" name="e-mail" [(ngModel)] = 'email'>
+  {{email}}
+  <label for="telefone">Telefone: </label>
+  <input type="text" name="telefone" [(ngModel)] = 'telefone'>
+  {{telefone}}
+</div>
+
+<div class="botao">
+  <button (click)="emiteAlerta()">Enviar</button>
+</div>
+

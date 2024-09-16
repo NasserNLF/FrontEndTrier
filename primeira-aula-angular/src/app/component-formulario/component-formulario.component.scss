@@ -1,0 +1,27 @@
+.formulario{
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+label{
+  height: fit-content;
+}
+
+input{
+  border-radius: 10px;
+  height: fit-content;
+
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+

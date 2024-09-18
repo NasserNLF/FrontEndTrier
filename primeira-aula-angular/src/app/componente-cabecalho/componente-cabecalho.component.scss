@@ -1,15 +1,61 @@
-.cabecalho{
-  display: flex;
-  background-color: blue;
-  align-items: center;
-  height: 10%;
+*{
+  color: white;
 }
 
-h1, h2, label{
-  color: white;
-  height: fit-content;
-  margin-left: 2%;
+
+header{
+  height: 10%;
+  background-color: blue;
 }
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  height: fit-content;
+  margin-left: 10%;
+}
+
+a{
+  height: fit-content;
+  font-size: xx-large;
+  height: fit-content;
+  text-decoration: none;
+}
+
+h1{
+  height: fit-content;
+  font-size: xx-large;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+
+
+// .cabecalho{
+//   display: flex;
+//   background-color: blue;
+//   align-items: center;
+//   height: 10%;
+// }
+
+// h1, h2, label{
+//   color: white;
+//   height: fit-content;
+//   margin-left: 2%;
+// }
 
 
 

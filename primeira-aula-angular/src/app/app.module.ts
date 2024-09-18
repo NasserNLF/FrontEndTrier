@@ -10,6 +10,7 @@ import { ComponentFormularioComponent } from './component-formulario/component-f
 import { FormsModule } from '@angular/forms';
 import { ComponentFormularioClienteComponent } from './component-formulario-cliente/component-formulario-cliente.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

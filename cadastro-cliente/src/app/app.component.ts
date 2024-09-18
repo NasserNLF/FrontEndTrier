@@ -6,17 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Meu primeiro título';
-  inputContent = '';
-  tituloDinamico = 'DSADSA';
-  aparecerComponente = true;
-usuarios: any;
-
-  emiteAlerta(event:any){
-    alert(event);
-  }
-
-
-
-
+  title = 'cadastro-cliente';
 }

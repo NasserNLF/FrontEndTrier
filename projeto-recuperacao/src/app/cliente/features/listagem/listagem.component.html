@@ -1,1 +1,18 @@
-<p>listagem works!</p>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Idade</th>
+      </tr>
+    </thead>
+    <tr *ngFor="let cliente of clientes">
+      <td>{{cliente.id}}</td>
+      <td>{{cliente.nome}}</td>
+      <td>{{cliente.idade}}</td>
+      <td><button (click)="editarItem(cliente)" >Editar</button></td>
+      <td><button >Deletar</button></td>
+    </tr>
+  </table>
+</div>

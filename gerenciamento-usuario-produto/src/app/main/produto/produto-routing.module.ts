@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListagemComponent } from './features/listagem/listagem.component';
 
 const routes: Routes = [
-  {path : '', component: ListagemComponent}
+  {path : '', loadChildren: () => import('./features/').then((m) => m.ProdutoModule)}
 ];
 
 @NgModule({

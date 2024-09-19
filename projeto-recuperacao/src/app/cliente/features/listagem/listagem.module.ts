@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ListagemRoutingModule } from './listagem-routing.module';
 import { ListagemComponent } from './listagem.component';
+import { CadastroModule } from '../cadastro/cadastro.module';
 
 
 @NgModule({
@@ -11,7 +12,9 @@ import { ListagemComponent } from './listagem.component';
   ],
   imports: [
     CommonModule,
-    ListagemRoutingModule
+    ListagemRoutingModule,
+  ],exports : [
+    ListagemComponent
   ]
 })
 export class ListagemModule { }
